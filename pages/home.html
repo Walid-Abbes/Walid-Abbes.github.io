@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/last-project/styles/home.css" />
+    <link
+    rel="stylesheet"
+    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+  />
+    <script src="/last-project/apps/main.js" defer></script>
+
+    <title>Book club</title>
+  </head>
+  <!-- home page hhhhh-->
+  <body>
+    <!-- nav bar -->
+    <div class="nav">
+      <div class="logo">
+        <h3>Book club</h3>
+      </div>
+
+      <div class="mainLinks">
+        <div class="home navBtn"><a href="home.html"> home</a></div>
+        <div class="navBtn"><a  href="store.html"> store</a></div>
+        <div class="navBtn"><a target="_blank" href="contact-us.html">contact US</a></div>
+      </div>
+      <div class="logIn logBtn navBtn">
+        <a target="_blank" href="login-singin.html" class=""> Login / Sign in</a>
+      </div>
+    </div>
+    <!-- hero image -->
+    <div class="hero">
+      <div class="heroText">
+        <h1>Your sweet place for reading a book</h1>
+      </div>
+    </div>
+    <!-- us section -->
+    <div class="us">
+      <div class="usImg">
+        <img
+          src="/last-project/assets/imgs/dylan-gillis-KdeqA3aTnBY-unsplash(1).jpg"
+          alt="brrr"
+        />
+      </div>
+      <div class="usInfo">
+        <h3>Who are we</h3>
+        <p>
+          We are a team of book enthusiasts who founded this humble site
+          so that we can have a place to share our interests  
+        </p>
+      </div>
+    </div>
+    <!-- subscriptions -->
+    <div class="subscriptions">
+      <div class="free">
+        <div class="freeInfo">
+          <h4>One book per month</h4>
+          <h4>targeted by ADS</h4>
+          <h4>limited access (read online only)</h4>
+        </div>
+        <div class="subBtn">
+          <a href="login-singin.html" class=""> Free sing up</a>
+        </div>
+      </div>
+      <div class="paid">
+        <div class="paidInfo">
+          <h4>unlimited reading</h4>
+          <h4>ADS free</h4>
+          <h4>unlimited access audio, digital and physical copies</h4>
+          <h4>5$ per month or 50$ per year</h4>
+        </div>
+        <div class="subBtn">
+          <a href="login-singin.html" class="">Premium sing up</a>
+        </div>
+      </div>
+    </div>
+    <!-- ComingSoon books -->
+    <div class="comingSoon">
+      <div class="comingSoonInfo">
+        <h3>New books coming coming soon</h3>
+        <p>
+          New books coming every month to keep our readers happy and satisfied,
+          you can always find new books each month in our store and online library
+           
+        </p>
+      </div>
+      <!--image slider start-->
+      <div class="slider">
+          <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+              <img src="/last-project/assets/books/bookC4.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/last-project/assets/books/bookC3.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/last-project/assets/books/bookC2.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="/last-project/assets/books/bookC1.jpg" alt="">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+          </div>
+          <!--manual navigation start-->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!--manual navigation end-->
+        </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+
+    </div>
+    <!-- footer -->
+    <footer class="foot">
+      <div class="socials">
+        <ul>
+          <li class="socialsLinks"><a target="_blank" href="https://web.facebook.com/walid.abbes.16144"><i class="uil uil-facebook"></i>  Facebook</a></li>
+          <li class="socialsLinks"><a target="_blank" href="https://www.instagram.com/walid.abbes.16144/"><i class="uil uil-instagram"></i>  Instagram</a></li>
+          <li class="socialsLinks"><a target="_blank" href="https://github.com/Walid-Abbes"><i class="uil uil-github"></i>  GitHub</a></li>
+        </ul>
+      </div>
+      <div class="copyR">
+        <h4>Book Club &copy; 2022 all rights reserved</h4>
+      </div>
+      <div class="contactInfo">
+        <h5><i class="uil uil-envelope"></i> W_Abbes@outlook.com</h5>
+        <h5><i class="uil uil-phone"></i> 0561520254</h5>
+      </div>
+    </footer>
+  </body>
+</html>
