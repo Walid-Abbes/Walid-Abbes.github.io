@@ -4,7 +4,7 @@ let itemdata = [
     name: "Book 1",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-1.png",
+    img: "https://walid-abbes.github.io/assets/books/book-1.png",
   },
   
   {
@@ -12,7 +12,7 @@ let itemdata = [
     name: "Book 2",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-2.png",
+    img: "https://walid-abbes.github.io/assets/books/book-2.png",
   },
   
   {
@@ -20,7 +20,7 @@ let itemdata = [
     name: "Book 3",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-3.png",
+    img: "https://walid-abbes.github.io/assets/books/book-3.png",
   },
   
   {
@@ -28,7 +28,7 @@ let itemdata = [
     name: "Book 4",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-4.png",
+    img: "https://walid-abbes.github.io/assets/books/book-4.png",
   },
   
   {
@@ -36,7 +36,7 @@ let itemdata = [
     name: "Book 5",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-5.png",
+    img: "https://walid-abbes.github.io/assets/books/book-5.png",
   },
   
   {
@@ -44,7 +44,7 @@ let itemdata = [
     name: "Book 6",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-6.png",
+    img: "https://walid-abbes.github.io/assets/books/book-6.png",
   },
   
   {
@@ -52,7 +52,7 @@ let itemdata = [
     name: "Book 7",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-7.png",
+    img: "https://walid-abbes.github.io/assets/books/book-7.png",
   },
   
   {
@@ -60,7 +60,7 @@ let itemdata = [
     name: "Book 8",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-8.png",
+    img: "https://walid-abbes.github.io/assets/books/book-8.png",
   },
   
   {
@@ -68,7 +68,7 @@ let itemdata = [
     name: "Book 9",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-9.png",
+    img: "https://walid-abbes.github.io/assets/books/book-9.png",
   },
   
   {
@@ -76,7 +76,7 @@ let itemdata = [
     name: "Book 10",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-10.png",
+    img: "https://walid-abbes.github.io/assets/books/book-10.png",
   },
   
   {
@@ -84,7 +84,7 @@ let itemdata = [
     name: "Book 11",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-11.png",
+    img: "https://walid-abbes.github.io/assets/books/book-11.png",
   },
   
   {
@@ -92,7 +92,7 @@ let itemdata = [
     name: "Book 12",
     price: "1500",
     description: " book book book book book book book book book book book book book book book book",
-    img: "/last-project/assets/books/book-12.png",
+    img: "https://walid-abbes.github.io/assets/books/book-12.png",
   }
   
 ];

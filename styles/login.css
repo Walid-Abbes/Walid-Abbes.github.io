@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/last-project/assets/imgs/marcel-strauss-EVnvDGaQ504-unsplash.jpg);
+  background-image: url(https://walid-abbes.github.io/assets/imgs/marcel-strauss-EVnvDGaQ504-unsplash.jpg);
   background-size: cover;
 }
 .container {
